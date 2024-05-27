@@ -10,6 +10,14 @@ const questions = [
         scores: [1, 2, 3, 4]
     },
     // Add 8 more questions in a similar format
+    {
+    name: "Nobara Kugisaki",
+    description: "You are confident, strong-willed, and fashionable.",
+    img: "url_to_nobara_image",
+    minScore: 31,
+    maxScore: 40
+}
+
 ];
 
 const characters = [
