@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJK Character Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Which JJK Character Are You?</h1>
+        <div id="quiz-container">
+            <div id="question-container"></div>
+            <div id="answers-container"></div>
+            <button id="next-button" onclick="nextQuestion()">Next</button>
+        </div>
+        <div id="result-container" style="display:none;">
+            <h2>Your JJK Character</h2>
+            <img id="character-image" src="" alt="Character Image">
+            <h3 id="character-name"></h3>
+            <p id="character-description"></p>
+            <button onclick="restartQuiz()">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
